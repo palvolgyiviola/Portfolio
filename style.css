@@ -4,8 +4,8 @@ body{
 }
 .menu {
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
-	height: 35px;
+	grid-template-columns: auto auto auto auto auto auto auto ;
+	height: 2.5em;
     
 }
 
@@ -37,4 +37,11 @@ p{
 	height: 10em;
     background-image: url(kekvirag.png) ;
 }
+
+	h1{
+		color: azure;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-style: italic;
+	}
+
 

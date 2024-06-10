@@ -1,7 +1,7 @@
 .menu {
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
-	height: 35px;
+	grid-template-columns: auto auto auto auto auto auto auto ;
+	height: 2em;
     
 }
 
@@ -21,4 +21,15 @@
 }
 body{
     background-color: azure;
+}
+article{
+	background-color:paleturquoise;
+	border-radius: 5em;
+	width: 50%;
+	text-align: center;
+}
+img{
+	width: 40%;
+	border-style: dotted;
+	border-color: darkcyan;
 }
