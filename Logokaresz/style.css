@@ -22,3 +22,7 @@
 body{
     background-color:azure;
 }
+img{
+	width: 50%;
+	border:0.3em,solid black;
+}
