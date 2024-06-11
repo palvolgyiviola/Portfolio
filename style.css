@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
 
 body{
     background-color:azure;
@@ -5,7 +6,7 @@ body{
 .menu {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto ;
-	height: 2.5em;
+	height: 12%;
     
 }
 
@@ -16,7 +17,7 @@ body{
 	text-align: center;
 	align-items: center;
 	text-decoration: none;
-	margin-left: 1px;
+	margin-left: 2%;
 	transition-duration: 0.5s;
 }
 .gomb:hover {
@@ -25,23 +26,41 @@ body{
 }
 p{
     color:black;
-    background-color: paleturquoise;
-    margin:35em;
-    border-radius: 7em;
+    
+    margin:2%;
+    border-radius: 1%;
     text-align: left;
     
     
 }
+header{
+	background-color: aliceblue;
+}
 .div{
     display: grid;
-	height: 10em;
+	height: 50%;
     background-image: url(kekvirag.png) ;
 }
 
 	h1{
 		color: azure;
-		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-		font-style: italic;
+		font-family: "Gwendolyn", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
 	}
+	footer{
+		margin-top: 10em;
+		
+	}
+	header{
+		border-color: aliceblue;
+		border-radius: 9em;
+	}
+	h2{
+		color: darkcyan;
+		
+	}
+	
 
 

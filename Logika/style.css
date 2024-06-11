@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
 table {
-	border: 2px solid black;
+	border: 0.1em solid black;
 	border-collapse: calc();
 }
 
 td, th{
-	border: 1px solid darkgrey;
-	padding: 9px;
+	border: 10% solid rgb(0, 0, 0);
+	padding: 1em;
 	text-align: center;
 }
 
 th {
-	border-bottom: 2px solid black;
+	border-bottom: 2% solid black;
 	background-color: lightgrey;
 }
 
@@ -23,7 +24,7 @@ body{
 .menu {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto ;
-	height: 2.5em;
+	height: 12%;
     
 }
 
@@ -34,10 +35,36 @@ body{
 	text-align: center;
 	align-items: center;
 	text-decoration: none;
-	margin-left: 1px;
+	margin-left:2%;
 	transition-duration: 0.5s;
 }
 .gomb:hover {
 	background-color:aliceblue;
 	color: black;
 }
+article{
+	background-color: paleturquoise;
+	border-style: dashed;
+	border-color: aliceblue;
+	border-radius: 2em;
+	text-align: left;
+	border-bottom: 3em;
+	border-top: 3em;
+	border-width: 0.3em;
+	margin-right: 15em;
+	margin-left: 15em;
+}
+h2{
+	color: rgb(0, 0, 0);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+	font-style: italic;
+}
+h1{
+	color: rgb(0, 0, 0);
+	font-family: "Gwendolyn", cursive;
+font-weight: 700;
+font-style: normal;
+font-size: xx-large;
+}
+
